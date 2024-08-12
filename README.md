@@ -1,1 +1,1 @@
-# DSP_MATLAB
+1. To plot delta function sequence
