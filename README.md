@@ -1,1 +1,3 @@
-1. To plot delta function sequence
+DSP using MATLAB
+
+1. To plot the Delta function sequence
