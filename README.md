@@ -3,3 +3,4 @@
 3. To plot the unit impulse function
 4. To plot the sinc function
 5. To plot the ramp function
+6. To plot the sine and cosine functions
