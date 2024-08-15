@@ -4,3 +4,4 @@
 4. To plot the sinc function
 5. To plot the ramp function
 6. To plot the sine and cosine functions
+7. To sort or flip a sequence
