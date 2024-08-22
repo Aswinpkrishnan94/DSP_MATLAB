@@ -5,3 +5,4 @@
 5. To plot the ramp function
 6. To plot the sine and cosine functions
 7. To sort or flip a sequence
+8. To perform linear convolution on two signals
