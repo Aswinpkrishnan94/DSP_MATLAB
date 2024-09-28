@@ -25,3 +25,20 @@ GainMargin = 20*log10(gm);
 PhaseMargin = pm;
 Wgm = wgm;
 Wpm = wpm;
+
+% sepcify range for magnitude and phase
+vm = [0.1 100 -100 20];
+vp = [0.1 100 -270 -45];
+
+figure
+subplot(2,1,1);
+semilogx(w, magdB, 'k', 'LineWidth',2);
+grid on;
+axis(vm);
+title('Bode diagram of G(s)');
+xlabel('\omega (rad/s)'); ylabel('Gain (dB)');
+subplot(2,1,2);
+semilogx(w, phase, 'k', 'LineWidth',2);
+grid on;
+axis(vp);
+xlabel('\omega (rad/s)'); ylabel('Phase (degree)');
